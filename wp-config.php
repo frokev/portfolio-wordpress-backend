@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'wordpress' );
 
-/** MySQL database username */
-define( 'DB_USER', 'username_here' );
+/** MySQL database username */mysql://bbdef86d7cd28d:40833a6a@eu-cdbr-west-02.cleardb.net/heroku_8f0bf4b1c98b0b2?reconnect=true
+define( 'DB_USER', 'bbdef86d7cd28d' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '40833a6a' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'eu-cdbr-west-02.cleardb.net' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define('AUTH_KEY',         '|. !/h0qy){9Q|6x%0v[he@|)y]r!^dY`Ss%:OYhz?=Du]n~~,ipI:y!JU@+N+|l');
+define('SECURE_AUTH_KEY',  'GrmB_D?Bl+/^48SzH+6b8-!uW:}#YOJ-!&m5/~wh<--PPFA5ud.H.+kM2Qb}Y`3W');
+define('LOGGED_IN_KEY',    'k~Oq+G.Frs|{:h&gp(F[jp+>##t,i^vQ7Z }.v4`/?Kai:`>XDW6i4z#.ye`hD5[');
+define('NONCE_KEY',        'A:[_aw!v}T-|[FH+?`wof>ugUN-JF/J{O~|D>s0;34:E@zV0p2)X7r(m~9w1qC4|');
+define('AUTH_SALT',        ']$dr*<<9r.f}||%$)G~P%bb6i!).JS*NFq+j#./gWDF?H8pEVJp.=Ltee!vJ3K(>');
+define('SECURE_AUTH_SALT', 'C-jQ2gevbf+1X[M~9|{AJz6cst$WK0-QrqEC`dtXDBBI9=jE9O7tM{UN^`r.uzF]');
+define('LOGGED_IN_SALT',   'dd0B(N>c+A@6d>}+GITWo-t:K58YGw^iF&Kb?~+sm$:|FQTX D_*W=o|s|b[FE$j');
+define('NONCE_SALT',       '=3?,[|w_/cpNuLLFndnZ{{J3WD.Legv{+8N*8TK}31_Lv6#<T)$;cv$V9YQ~-G{O');
 
 /**#@-*/
 
